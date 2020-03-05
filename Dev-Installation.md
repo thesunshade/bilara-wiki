@@ -78,7 +78,7 @@ flask run --port 5000
 
 ```
 cd ~/bilara/client
-npm serve
+npm run dev
 ```
 
 ## Use the local site
