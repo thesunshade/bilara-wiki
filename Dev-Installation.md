@@ -73,7 +73,7 @@ Otherwise if you wish to get seperate debug feedback from the client and server 
 
 ```
 cd ~/bilara/server
-flask run
+flask run --port 5000 
 ```
 
 ```
