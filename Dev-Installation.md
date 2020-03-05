@@ -22,7 +22,7 @@ npm install
 ```
 
 ### Setup python environment
-The API server uses python3.6+, I reccomend installing pyenv: https://github.com/pyenv/pyenv
+The API server uses python3.6+, I reccomend installing [pyenv](https://github.com/pyenv/pyenv), you can use this command to install pyenv and some useful plugins: `curl https://pyenv.run | bash` it may tell you to add some lines to your .bashrc
 
 Once pyenv is installed (remember to open a new terminal), run something like:
 ```
