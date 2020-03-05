@@ -45,7 +45,10 @@ You need to create a user and database for bilara, this can be done via the web 
 * Go to http://localhost:8529
 * Login as root, (password "test" if using suttacentral developed environment)
 * Choose the _system database
-
+* Go to "users" in the side panel
+* Add user, set username, name and password fields to "bilara"
+* Go to "databases" in the side panel
+* Add database, name "bilara", set the user for the database to bilara
 
 
 
