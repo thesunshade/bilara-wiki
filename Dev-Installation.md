@@ -33,6 +33,22 @@ pyenv local bilara
 pip install -r requirements.txt
 ```
 
+### Setup ArangoDB
+
+Make sure arangoDB is installed and running, if using Suttacentral you can start the docker instance
+```
+docker start sc-arangodb
+```
+
+You need to create a user and database for bilara, this can be done via the web admin
+
+* Go to http://localhost:8529
+* Login as root, (password "test" if using suttacentral developed environment)
+* Choose the _system database
+
+
+
+
 ### Clone the data repository
 
 Note that in development mode bilara does not automatically perform git actions so you must manage the repository yourself
