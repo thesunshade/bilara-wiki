@@ -43,7 +43,7 @@ docker start sc-arangodb
 You need to create a user and database for bilara, this can be done via the web admin
 
 * Go to http://localhost:8529
-* Login as root, (password "test" if using suttacentral developed environment)
+* Login as root, (password "test" if using suttacentral development environment)
 * Choose the _system database
 * Go to "users" in the side panel
 * Add user, set username, name and password fields to "bilara"
