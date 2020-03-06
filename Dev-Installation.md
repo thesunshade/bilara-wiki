@@ -69,7 +69,7 @@ cd ~/bilara
 ./run_dev.sh
 ```
 
-Otherwise if you wish to get seperate debug feedback from the client and server code, run in seperate terminals:
+Otherwise if you wish to get separate debug feedback from the client and server code, run in seperate terminals:
 
 ```
 cd ~/bilara/server
@@ -84,3 +84,12 @@ npm run dev
 ## Use the local site
 
 at http://localhost:5000
+
+## Build TM
+
+The TM should build automatically first time you run Bilara, but there is also a manual command to (re)index the TM (naturally this requires ArangoDB be running)
+
+```
+cd ~/bilara
+./index-tm
+```
