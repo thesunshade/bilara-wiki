@@ -66,8 +66,10 @@ git clone git@github.com:suttacentral/bilara-data.git repo
 The quick way:
 ```
 cd ~/bilara
-./run_dev.sh
+./run_dev
 ```
+You can also run `./run_dev_fast` this won't install dependencies for Pip or NPM which increases startup time.
+
 
 Otherwise if you wish to get separate debug feedback from the client and server code, run in seperate terminals:
 
