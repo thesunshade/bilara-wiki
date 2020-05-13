@@ -26,8 +26,6 @@ git@github.com:suttacentral/bilara-data.git repo
 
 Bilara uses *python 3.8.x*
 
-If your system python version is 3.8.x you can use it directly. Otherwise use something like pyenv to install 3.8.2.
-
 ## Install Poetry
 
 Poetry is a dependency manager for Python. Install it using the following script:
