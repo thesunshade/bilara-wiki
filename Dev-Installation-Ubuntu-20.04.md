@@ -102,7 +102,7 @@ cd ~/bilara
 
 ## Index Translation Memory / Search
 
-You may need to do this manually:
+You should not need to do this manually, but the TM can be forcefully (re)indexed with this command:
 
 ```
 ./index-tm
