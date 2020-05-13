@@ -1,6 +1,6 @@
 Starting from a virgin install of Ubuntu 20.04 Minimal
 
-# Install Git
+# Install git and other apt-gettable dependencies
 
 ```
 sudo apt install curl git nodejs npm python-is-python3 python3-distutils python3-venv
