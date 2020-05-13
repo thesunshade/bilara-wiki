@@ -93,6 +93,17 @@ That will create the required database and user. Hit `ctrl-d` to exit the shell.
 
 You should install ArangoDB 3.6.x in some manner, then create the database and user in some manner.
 
+# Create local settings
+
+You can configure the local development setup to do things such as masquerading as a user. Create a file named `server/local.py` with contents such as:
+```
+config = {
+    'LOCAL_USERNAME': 'sujato',
+    'LOCAL_LOGIN': 'sujato',
+    'LOCAL_EMAIL': 'bob@example.com'
+}
+```
+
 # Start Bilara
 
 ```
