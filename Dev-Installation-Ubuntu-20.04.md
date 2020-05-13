@@ -109,6 +109,8 @@ cd ~/bilara
 ./run-dev
 ```
 
+And navigate to http://localhost:3003/
+
 ## Index Translation Memory / Search
 
 You should not need to do this manually, but the TM can be forcefully (re)indexed with this command:
