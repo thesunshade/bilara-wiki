@@ -65,10 +65,10 @@ You can create a file `local.sh` which will run local commands before running th
 
 ```
 cd ~/bilara
-echo '
-#/bin/bash\
-docker start sc-arangodb\
-sleep 2' > local.sh
+echo "
+#/bin/bash
+docker start sc-arangodb
+sleep 2" > local.sh
 chmod +x local.sh
 ```
 
