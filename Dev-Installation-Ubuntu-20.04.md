@@ -18,7 +18,7 @@ Note: Setting up your SSH key with github is outside the scope of these instruct
 ## Clone the data repo
 ```
 cd bilara
-git@github.com:suttacentral/bilara-data.git repo
+git clone git@github.com:suttacentral/bilara-data.git repo
 
 ```
 
