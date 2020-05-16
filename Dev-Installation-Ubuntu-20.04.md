@@ -92,7 +92,7 @@ You should install ArangoDB 3.6.x in some manner, then create the database and u
 
 # Create local settings
 
-You can configure the local development setup to do things such as masquerading as a user. Create a file named `server/local.py` with contents such as:
+You can configure the local development setup to do things such as masquerading as a user. Create a file named `server/local_config.py` with contents such as:
 ```
 config = {
     'LOCAL_USERNAME': 'sujato',
