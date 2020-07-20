@@ -37,4 +37,4 @@ git push -u origin publish-pali
 
 * Go to github.com
 * Create a Pull Request, from **publish-pali** to **published** - get the branches right!
-* Once the pull request has been accepted, the texts are published!
+* Once the pull request has been accepted, the texts are in the **published** branch!
