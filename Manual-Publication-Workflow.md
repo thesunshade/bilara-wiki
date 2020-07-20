@@ -10,7 +10,7 @@ root/pli/ms
 
 ## Step 2
 
-* navigate the bilara-data repo (i.e. bilara/repo)
+* navigate to the bilara-data repo (i.e. bilara/repo)
 * checkout the published branch
 * make sure it's up to date
 * create a new branch from it, in this case I will use **publish-pali**
