@@ -6,7 +6,7 @@ The Bilara webapp offers the ability to publish texts directly from the webapp.
 
 Bilara lets you publish at any level of granularity: a sutta, a vagga, a whole nikaya. If you publish a nikaya, you don't have to publish each sutta individually. These options are there to accommodate the different working preferences of translators. If you prefer to publish one sutta at a time, you can. Or if you prefer to complete and revise a whole nikaya before publishing all at once, you can.
 
-Before publishing, check that your publication metadata is correct. This is the info that will be supplied alongside your text. Not every field need by filled in, but the more the better.
+Before publishing, check that your publication metadata is correct. This is the info that will be supplied alongside your text. Not every field need be filled in, but the more the better.
 
 https://github.com/suttacentral/bilara-data/blob/published/_publication.json
 
