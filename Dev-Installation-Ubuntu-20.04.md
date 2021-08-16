@@ -54,7 +54,7 @@ If the installed python version is incorrect, open a new terminal and check the 
 python -V
 ```
 
-Make sure `bilara/.python-version` has the some version.
+Make sure `bilara/.python-version` has the same version.
 
 # Install Node Dependencies
 
