@@ -48,6 +48,14 @@ cd ~/bilara/server
 poetry install
 ```
 
+If the installed python version is incorrect, open a new terminal and check the python version on you machine:
+
+```
+python -V
+```
+
+Make sure `bilara/.python-version` has the some version.
+
 # Install Node Dependencies
 
 ```
