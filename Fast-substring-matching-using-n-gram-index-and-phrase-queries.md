@@ -64,11 +64,15 @@ FOR doc IN ngram_view
 
 In this query the STARTS_WITH function is used to search based on *3-grams* that start with `go`, for example it would find "goc" (gocariya). We also throw in a reasonable limit, with as many documents as Bilara has (around 450,000 just for Pali root texts) setting a limit of 10000 drastically slashes the amount of work ArangoDB has to do meaning the query runs in a few milliseconds. This is also a common trick used by search engines for overly vague queries, they just say "of many results" or something because trying to calculate exactly how many matches there are or a good relevance value is too much work for an overly vague query.
 
+The STARTS_WITH approach can also be used for programmatically generated multi-word queries, using a STARTS_WITH subquery for short words instead of tokenizing into n-grams. While annoying, it does work well.
+
 Further exploring this concept might allow using longer n-grams with the associated performance benefits, and with very few downsides as short queries would still be supported about as well as one could expect. This may even be suitable for CJK as a universal indexing system.
 
 ## Relevance
 
 Generally the further a query deviates from how the search engine expects it to be used, the poorer term frequency based relevance may perform. But relevance is always a hard problem in search engines.
+
+Overall this approach seems better for strict search (the results much match, within the slop of whatever punctuation and accent removal is done) where the results are narrowed down by altering the query rather than the search engine magically figuring out what the user wants from a vague query. If the query returns very fast then strict search is less irritating.
 
 # REGEX / LIKE search
 
