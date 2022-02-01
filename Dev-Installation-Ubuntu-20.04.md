@@ -44,7 +44,7 @@ poetry -V
 ## Install Python Dependencies
 
 ```
-cd ~/bilara/server
+cd ~/bilara
 poetry install
 ```
 
