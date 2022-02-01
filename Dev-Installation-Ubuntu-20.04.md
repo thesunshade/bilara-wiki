@@ -105,7 +105,8 @@ You can configure the local development setup to do things such as masquerading 
 config = {
     'LOCAL_USERNAME': 'sujato',
     'LOCAL_LOGIN': 'sujato',
-    'LOCAL_EMAIL': 'bob@example.com'
+    'LOCAL_EMAIL': 'bob@example.com',
+    'GIT_SYNC_ENABLED': False,
 }
 ```
 
