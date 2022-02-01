@@ -24,7 +24,7 @@ git clone git@github.com:suttacentral/bilara-data.git repo
 
 # Install Python Dependencies
 
-Bilara uses *python 3.8.x*
+Bilara uses *python 3.8.x* or higher. Modern versions of Ubuntu have at least this version of python installed by default.
 
 ## Install Poetry
 
@@ -48,13 +48,13 @@ cd ~/bilara
 poetry install
 ```
 
+Note: When using poetry for python environment management, you use `poetry run xyz` to run a command in the virtual environment, or you can use `poetry shell` to activate the virtual environment.
+
 If the installed python version is incorrect, open a new terminal and check the python version on you machine:
 
 ```
 python -V
 ```
-
-Make sure `bilara/.python-version` has the same version.
 
 # Install Node Dependencies
 
@@ -67,7 +67,7 @@ npm install
 
 ## If you installed the SuttaCentral docker ecosystem 
 
-You can simply use the docker ArangoDB installed for it
+You can simply use the docker ArangoDB installed for it.
 
 You can create a file `local.sh` which will run local commands before running the bilara server. Run the following to create a local.sh which will make sure the ArangoDB container is running.
 
@@ -96,7 +96,7 @@ That will create the required database and user. Hit `ctrl-d` to exit the shell.
 
 ## If you *haven't* installed the SuttaCentral ecosystem
 
-You should install ArangoDB 3.6.x in some manner, then create the database and user in some manner.
+You should install ArangoDB 3.8.x in some manner, perhaps using the docker image, then create the database and user in some manner.
 
 # Create local settings
 
